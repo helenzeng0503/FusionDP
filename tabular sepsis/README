@@ -1,0 +1,7 @@
+Data is available from:
+Early Prediction of Sepsis from Clinical Data: The PhysioNet/Computing in Cardiology Challenge 2019
+Reyna, M., Josef, C., Jeter, R., Shashikumar, S., Moody, B., Westover, M. B., Sharma, A., Nemati, S., & Clifford, G. D. (2019). Early Prediction of Sepsis from Clinical Data: The PhysioNet/Computing in Cardiology Challenge 2019 (version 1.0.0). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/v64v-d857
+
+
+The model can be ran by:
+python fusiondp-sepsis.py --mode "fusiondp" --epsilon "2.0" --epochs "13" --max_grad_norm "1.8" --alpha "3.0" --beta "0.5"

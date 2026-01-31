@@ -1,0 +1,26 @@
+Data is available from PhysioNet MIMIC-III Clinical Database:
+Johnson, A., Pollard, T., & Mark, R. (2016). MIMIC-III Clinical Database (version 1.4). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/C2XW26
+
+Data preprocessing is available from github repo: caml-mimic
+from paper:Explainable Prediction of Medical Codes from Clinical Text
+
+Pre-trained word embedding is available from huggingface garyw/clinical-embeddings-300d-w2v-oa-available
+Flamholz ZN, Crane-Droesch A, Ungar LH, Weissman GE. Word embeddings trained on published case reports are lightweight, effective for clinical tasks, and free of protected health information. J Biomed Inform. 2022 Jan;125:103971. doi: 10.1016/j.jbi.2021.103971. Epub 2021 Dec 14. PMID: 34920127; PMCID: PMC8766939.
+
+Filtration and generation following Not Fully Synthetic: LLM-based Hybrid Approaches Towards Privacy-Preserving Clinical Note Sharing
+Rahman Sarkar A, Chuang YS, Jiang X, Mohammed N. Not Fully Synthetic: LLM-based Hybrid Approaches Towards Privacy-Preserving Clinical Note Sharing. AMIA Jt Summits Transl Sci Proc. 2025 Jun 10;2025:441-450. PMID: 40502247; PMCID: PMC12150723.
+
+Data is not permitted to be shared as it requires credentialed access.
+The others are not included because of the limitation of the size of the files, but they can be found online.
+
+
+The model can be ran by:
+python fusiondp-text.py \
+                              --epochs 20 \
+                              --batch_size 256 \
+                              --lr 0.2 \
+                              --epsilon 5.0 \
+                              --max_grad_norm 1.0 \
+                              --mode "fusiondp" \
+                              --alpha 0.5 \
+                              --beta 0.5

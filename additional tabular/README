@@ -1,0 +1,5 @@
+
+The model can be ran by:
+python train_fusiondp_bank.py \
+          --one_hot --mode fusiondp --epsilon 1.0 --epochs 10 --max_grad_norm 1.0 \
+          --alpha 1.0 --beta 1.0
