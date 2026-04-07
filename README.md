@@ -49,15 +49,3 @@ run python impute_bank.py to impute sensitive attributes with TabPFN and get ban
 <img width="526" height="354" alt="Screenshot 2026-01-31 at 5 55 54 PM" src="https://github.com/user-attachments/assets/592a1159-4cdb-4819-b365-b96ac668ef0e" />
 
 <img width="1093" height="366" alt="Screenshot 2026-01-31 at 5 56 07 PM" src="https://github.com/user-attachments/assets/c0b0421e-73c8-40e9-80e3-e50f54de6bf4" />
-
-## Contributors
-
-Linghui Zeng $^{1}$,
-Ruixuan Liu $^{1}$,
-Atiquer Rahman Sarkar $^{2}$,
-Xiaoqian Jiang $^{3}$,
-Joyce C. Ho $^{1}$,
-Li~Xiong $^{1}$
-
-$^{1}$ Emory University, $^{2}$ University of Manitoba, $^{3}$ University of Texas Health Science Center
-
