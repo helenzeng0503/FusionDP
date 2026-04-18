@@ -1,0 +1,6 @@
+epsilon,support_csv,train_csv,output_csv,target_col,target_type,accuracy,f1_macro,mse,r2
+2.0,outputs/aim_bank_sweep/eps_2_0/bank_support_aim_synth.csv,bank_train.csv,outputs/imputation_sweep/eps_2_0/bank_train_imputed.csv,age,numeric,,,114.12937121207065,-0.014351499337255103
+2.0,outputs/aim_bank_sweep/eps_2_0/bank_support_aim_synth.csv,bank_train.csv,outputs/imputation_sweep/eps_2_0/bank_train_imputed.csv,job,categorical,0.1148,0.024865376872149285,,
+2.0,outputs/aim_bank_sweep/eps_2_0/bank_support_aim_synth.csv,bank_train.csv,outputs/imputation_sweep/eps_2_0/bank_train_imputed.csv,marital,categorical,0.5856,0.2693807581131525,,
+2.0,outputs/aim_bank_sweep/eps_2_0/bank_support_aim_synth.csv,bank_train.csv,outputs/imputation_sweep/eps_2_0/bank_train_imputed.csv,education,categorical,0.5128666666666667,0.16961787642250295,,
+2.0,outputs/aim_bank_sweep/eps_2_0/bank_support_aim_synth.csv,bank_train.csv,outputs/imputation_sweep/eps_2_0/bank_train_imputed.csv,housing,categorical,0.6507,0.6383907300485346,,
