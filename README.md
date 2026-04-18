@@ -1,6 +1,6 @@
 # FusionDP: Foundation Model-Assisted Differentially Private Learning for Partially Sensitive Attributes
 
-### Official repository for FusionDP (submitted to SIGMOD 2027)
+### Official repository for FusionDP
 
 Datasets in sensitive domains often contain attributes with heterogeneous privacy requirements, where different features are subject to different access controls and compliance policies. For instance, in health datasets, specific identifiers like age and race are protected health information, while clinical measurements and lab results may be freely used for analytics. However, existing differential privacy (DP) mechanisms apply uniform protection across all features, leading to excessive noise injection that degrades the utility of machine learning models.
 We propose FusionDP, a framework that enables feature-level privacy control when training over partially sensitive data. FusionDP first leverages foundation models to impute sensitive features from non-sensitive ones, creating a privacy-preserving view of the data. It then uses a modified DP-SGD algorithm that trains on both original and imputed features while formally guaranteeing privacy for sensitive attributes.
